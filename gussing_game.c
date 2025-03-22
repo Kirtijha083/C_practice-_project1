@@ -10,7 +10,7 @@ int main(){
 
     printf("Welcome to the world of Gussing Numbers \n ");
     random = rand() % 100 + 1;
-    printf("number is: %d", random);
+    // printf("number is: %d", random);
     // rand generate number b/w 0_100 in decimal...so multiply by 100 so then the number is between 0_99 so, we +1 in it
     // want to run 1 iteration always....so using do while loop
     do
@@ -34,7 +34,7 @@ int main(){
     } while (guess != random);
     // loop will run until guess will not equal to random number
 
-    printf("Bye Bye!, Thanks for Playing");
+    printf("Bye Bye!, Thanks for Playing\n");
     printf("Developed by: Kumari Kirti Jha");
 }
 
